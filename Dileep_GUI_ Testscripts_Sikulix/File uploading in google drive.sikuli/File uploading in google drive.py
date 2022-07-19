@@ -1,0 +1,10 @@
+Location(719, 428)
+doubleClick("1636323702253.png")
+type("https://drive.google.com")
+type(Key.ENTER)
+if "1636323793331.png":
+    click("1636323810120.png")
+sleep(1)
+type(Key.DOWN)
+type(Key.ENTER)
+doubleClick("1636324188820.png")

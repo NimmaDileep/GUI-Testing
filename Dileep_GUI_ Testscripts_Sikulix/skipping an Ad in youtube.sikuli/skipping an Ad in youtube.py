@@ -1,0 +1,12 @@
+Location(719, 428)
+doubleClick("1636326760302.png")
+type("https://youtube.com")
+type(Key.ENTER)
+if "1636326840503.png":
+    click("1636326856837.png")
+type("GUI Test" + Key.ENTER)
+sleep(1)
+type(Key.PAGE_DOWN)
+click(Pattern("1636327603334.png").similar(0.50))
+wait( Pattern("1636327695799.png").similar(0.40), FOREVER)
+click(Pattern("1636327709927.png").similar(0.42))

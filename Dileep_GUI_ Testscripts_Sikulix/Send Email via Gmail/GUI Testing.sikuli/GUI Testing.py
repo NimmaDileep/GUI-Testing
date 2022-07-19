@@ -1,0 +1,16 @@
+Location(719, 428)
+doubleClick("1636322845322.png")
+type("https://mail.google.com")
+type(Key.ENTER)
+click("1636322989068.png")
+sleep(2)
+if "1636323453392.png":
+    type("test@gmail.com")
+    type(Key.TAB)
+    type(Key.TAB)
+    type("This is a test mail")
+    type(Key.TAB)
+    type("Hi welcome this is a test mail for testing sending an email for GUI Testing")
+    click("1636323166388.png")
+if "1636323274454.png":
+    click("1636323320639.png")
